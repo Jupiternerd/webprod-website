@@ -5,6 +5,19 @@
             font-family: 'Courier New', Courier, monospace;
             color: gray;
         }
+        .custom-svg .svg-link {
+            cursor: pointer;
+            transition: fill 0.3s ease;
+        }
+	polygon:hover{
+
+		fill:red;
+	}
+
+	circle:hover{
+
+		stroke:yellow;
+	}
     </style>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
@@ -12,6 +25,17 @@
         <title>Wai Hlaing</title>
     </head>
     <main>
+            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <title>My logo composed of a circle and two triangle polygons</title>
+                <a href="https://shokkunn.art">
+                <polygon points="100,10 10,190 190,190" fill="black" />
+                </a>
+                <polygon points="100,0 10,0 190,190" fill="white" />
+                <a href="https://www.linkedin.com/in/wai-hlaing-b9a3a81b8/">
+                <circle cx="100" cy="100" r="57" fill="white" transform="translate(0, 35)" />
+                </a>
+                <text x="84" y="140" fill="black">W  H</text>
+            </svg>
         <h1>
             Hello! My name is Wai Hlaing.
         </h1>
@@ -28,7 +52,7 @@
             <source src="lillies.mp4">
         </video>
         <h6 class="publish-time">
-            Published 10/3/23
+            Published 11/30/23
         </h6>
     </main>
         <footer>
