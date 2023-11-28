@@ -15,6 +15,15 @@ ol {
     list-style: none;
 }
 
+footer {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    font-size: 25px
+}
+
 h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -45,7 +54,7 @@ a:active {
 }
 
 a:visited {
-    color: rgba(184, 184, 184, 0.532);
+    color: rgba(215, 35, 35, 0.532);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
