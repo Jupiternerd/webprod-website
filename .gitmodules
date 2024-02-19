@@ -1,0 +1,3 @@
+[submodule "madlibs/ashamed-madlibs"]
+	path = madlibs/ashamed-madlibs
+	url = https://github.com/Jupiternerd/ashamed-madlibs
